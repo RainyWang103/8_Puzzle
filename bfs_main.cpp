@@ -17,7 +17,7 @@
  2. Data structures: map (for memory tree in checking replication), queue (for BFS)
  3. Description of the 3 header files:
     "shared_Node.h": [lowest hierarchy] defines the Node struct, overloads operator '<' '=' and '=='
-    "shared_Successor.h": an independant class named Successor, generating valid child state for any parent state
+    "shared_Successor.h": an independent class named Successor, generating valid child state for any parent state
     "bfs_Function.h": implements function to check if(target==goal) and expand node when false,
                   also specify debug function to print out nodes during process
  4. I have also included some test cases (in comment)to initialize the state
