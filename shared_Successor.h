@@ -53,7 +53,7 @@ public:
             {
                 // set the state array of child nodes
                 lrud[i].content = parent;
-                int x2=x;  int y2=y;                     //target swap postion for -1
+                int x2=x;  int y2=y;                     //target swap position for -1
                 if(i==0||i==1){y2=(i==0)?(y2-1):(y2+1);} //for left/right
                 else          {x2=(i==2)?(x2-1):(x2+1);} //for up/down
                 Swap(lrud[i].content.state[x][y],lrud[i].content.state[x2][y2]); //swap (0) to an valid location
